@@ -1,0 +1,9 @@
+
+bin/DbgVC9x64/ntestbasicd.pdb
+bin
+.vs/nicebasic/v14/.suo
+*.ipch
+lib
+*.db
+*.opendb
+.vs/nVlppTest/v14/.suo
