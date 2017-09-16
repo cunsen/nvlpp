@@ -1,4 +1,8 @@
 ﻿#include "vlpp.h"
+#ifndef UNICODE
+#define UNICODE
+#endif
+
 #include <Windows.h>
 
 namespace vl
@@ -194,9 +198,9 @@ namespace vl
 
 #include <stdlib.h>
 #include "String.h"
-#if defined VCZH_MSVC
-#include <Windows.h>
-#endif
+//#if defined VCZH_MSVC
+//#include <Windows.h>
+//#endif
 
 namespace vl
 {
@@ -483,7 +487,7 @@ namespace vl
 
 
 #include "Locale.h"
-#include <Windows.h>
+//#include <Windows.h>
 
 namespace vl
 {
@@ -1008,9 +1012,9 @@ namespace vl
 }
 
 
-#if defined VCZH_MSVC
-#include <Windows.h>
-#endif
+//#if defined VCZH_MSVC
+//#include <Windows.h>
+//#endif
 
 namespace vl
 {
@@ -1214,7 +1218,7 @@ namespace vl
 
 
 #ifdef VCZH_MSVC
-#include <Windows.h>
+//#include <Windows.h>
 #include <winhttp.h>
 #pragma comment(lib, "WinHttp.lib")
 
@@ -3064,9 +3068,9 @@ namespace vl
 }
 
 
-#if defined VCZH_MSVC
-#include <windows.h>
-#endif
+//#if defined VCZH_MSVC
+//#include <windows.h>
+//#endif
 
 namespace vl
 {
@@ -4834,7 +4838,7 @@ namespace vl
 // #include "../Stream/FileStream.h"
 // #include "../Stream/Accessor.h"
 // #include "../Exception.h"
-#include <Windows.h>
+//#include <Windows.h>
 #include <Shlwapi.h>
 #pragma comment(lib, "Shlwapi.lib")
 
@@ -5173,7 +5177,7 @@ namespace vl
 // #include "../Collections/OperationForEach.h"
 // #include "../Stream/FileStream.h"
 // #include "../Stream/Accessor.h"
-#include <Windows.h>
+//#include <Windows.h>
 // #include <Shlwapi.h>
 // #pragma comment(lib, "Shlwapi.lib")
 
@@ -5450,7 +5454,7 @@ namespace vl
 	}
 }
 
-#include <Windows.h>
+//#include <Windows.h>
 // #include <Shlwapi.h>
 // #pragma comment(lib, "Shlwapi.lib")
 
@@ -10122,7 +10126,7 @@ namespace vl
 // #include "Threading.h"
 // #include "Collections/List.h"
 #ifdef VCZH_MSVC
-#include <Windows.h>
+//#include <Windows.h>
 
 namespace vl
 {

@@ -439,11 +439,11 @@ TEST_CASE(FastAccessFilesWithEncodingTesting)
 
 TEST_CASE(TestFileSystemOthers)
 {
-	WString filePath = L"F:\\Users\\Chencs\\Desktop\\ids测试\\d323(内部).idsd";
-	WString strExtension = PathFindExtension(filePath.Buffer());
-	WString name = PathFindFileName(filePath.Buffer());
-	// 	FilePath path = FilePath::CurrentPath();
-	Console::WriteLine(strExtension);
+	// 	WString filePath = L"F:\\Users\\Chencs\\Desktop\\ids测试\\d323(内部).idsd";
+	// 	WString strExtension = PathFindExtension(filePath.Buffer());
+	// 	WString name = PathFindFileName(filePath.Buffer());
+	// 	// 	FilePath path = FilePath::CurrentPath();
+	// 	Console::WriteLine(strExtension);
 }
 
 // TEST_CASE(TestFileInfo)
