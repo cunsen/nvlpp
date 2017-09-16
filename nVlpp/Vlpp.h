@@ -1368,6 +1368,11 @@ namespace vl
 			
 			return CalculateLength(bufAOld) - strB.length;
 		}
+	 public:
+		bool IsEmpty()
+		{
+			return buffer == &zero || length == 0;
+		}
 		
 	 public:
 	 
