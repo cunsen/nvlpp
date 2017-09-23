@@ -7802,7 +7802,7 @@ namespace vl
 			
 		 public:
 			static FilePath CurrentPath();
-			static FilePath TheAppPath();
+			static FilePath ModulePath(bool isDll = true);
 			static FilePath TempPath();
 		 public:
 			static vint					Compare(const FilePath& a, const FilePath& b);
