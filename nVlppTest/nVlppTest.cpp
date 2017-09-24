@@ -9,7 +9,7 @@
 WString GetExePath()
 {
 	using namespace filesystem;
-	FilePath path = FilePath::TheAppPath().GetFolder();
+	FilePath path = FilePath::ModulePath().GetFolder();
 	return path.GetFullPath();
 }
 
@@ -47,6 +47,7 @@ int main()
 	UnitTest::RunAndDisposeTests();
 	FinalizeGlobalStorage();
 	// 	system("pause");
+	_CrtDumpMemoryLeaks();
 	return 0;
 }
 
